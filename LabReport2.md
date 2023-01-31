@@ -14,16 +14,45 @@
 I would choose the bug of ListExamples.java
 
 ### Failure-inducing input
+``````java
+    private List<String> input1,input2,answer;
+	@Before
+	public void setUp(){
+		input1 = new ArrayList<String>();
+		input2 = new ArrayList<String>();
+		answer = new ArrayList<String>();
+
+		input1.add("1");
+		input1.add("3");
+		input2.add("1");
+		input2.add("2");
+		answer.add("1");
+		answer.add("1");
+		answer.add("2");
+		answer.add("3");
+
+	}
+    @Test
+	public void findBugTester() {
+		assertEquals(answer, ListExamples.merge(input2, input1));
+	}
+``````
 
 ### No-Failure input
+``````java
 
+	@Test 
+	public void noBugTester() {
+		assertEquals(answer, ListExamples.merge(input1, input2));
+	}
+``````
 
 ##### Screenshot of the output of Junit
 
 ### Before- and After- code
 
 #### Before code
-``````
+``````java
 static List<String> merge(List<String> list1, List<String> list2) {
     List<String> result = new ArrayList<>();
     int index1 = 0, index2 = 0;
