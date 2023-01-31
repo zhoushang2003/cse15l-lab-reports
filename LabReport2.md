@@ -54,7 +54,7 @@ class StringServer {
 <img width="442" alt="截屏2023-01-30 16 43 08" src="https://user-images.githubusercontent.com/52812466/215629381-7f34f0bd-d6aa-4441-837a-98e5bbc75d7f.png">
 
 <img width="559" alt="截屏2023-01-30 16 42 56" src="https://user-images.githubusercontent.com/52812466/215629404-0ea0020b-cfd9-4ad6-a809-a6cf60da1533.png">
-
+<http://localhost:8000/add?s=How%20old%20are%20you>
 <img width="472" alt="截屏2023-01-30 16 42 02" src="https://user-images.githubusercontent.com/52812466/215629411-96e89f83-ab7d-43f3-9f12-b8b678816115.png">
 
 
@@ -96,7 +96,7 @@ I would choose the bug of ListExamples.java
 ``````
 
 ##### Screenshot of the output of Junit
-<http://localhost:8000/add?s=How%20old%20are%20you>
+
 <img width="1342" alt="截屏2023-01-30 17 07 46" src="https://user-images.githubusercontent.com/52812466/215633124-017c2b32-a14c-4668-ba6c-f52c79478006.png">
 
 ### Before- and After- code
