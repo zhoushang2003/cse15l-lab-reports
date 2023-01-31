@@ -127,7 +127,8 @@ static List<String> merge(List<String> list1, List<String> list2) {
     return result;
   }
 ``````
-How to fix the issue: 
+How to fix the issue: In the last while loop, the original code wants to add elements from list2 that are not added to the result. After each element is added, index2 should be added by 1, so we can add the next element. However, the original code wrote index1 plus 1, so we should change it to index2 plus 1.
+
 #### After code
 ``````java
 static List<String> merge(List<String> list1, List<String> list2) {
@@ -155,4 +156,4 @@ static List<String> merge(List<String> list1, List<String> list2) {
   }
 ``````
 ## Part3
-
+I learned some basic web server syntax. Improved bug-finding ability. What I learned most was writing the Lab Report section. I learned how to use markdown, the color of java code, and change the font of the title.
