@@ -1,5 +1,56 @@
 # cse15l-lab-reports
 ## Part1
+The following is my code of StringServer.java
+``````java
+import java.io.IOException;
+import java.net.URI;
+import java.util.ArrayList;
+
+class Handler implements URLHandler {
+    // The one bit of state on the server: a number that will be manipulated by
+    // various requests.
+    int num = 0;
+	ArrayList<String> string = new ArrayList<>();
+
+    public String handleRequest(URI url) {
+        if (url.getPath().equals("/")) {
+			String result = "Shang's strings are:\n";
+			for (int i = 0; i < string.size(); i++) {
+				result += string.get(i);
+				result += "\n";
+			}
+			return result;
+        } else if (url.getPath().contains("/add")) {
+            String[] parameters = url.getQuery().split("=");
+            if (parameters[0].equals("s")) {
+				string.add(parameters[1]);
+				String result = "";
+                for (int i = 0; i < string.size(); i++) {
+					result += string.get(i);
+					result += "\n";
+				}
+				return result;
+            }
+        }
+        return "404 Not Found!";
+    }
+}
+
+
+class StringServer {
+    public static void main(String[] args) throws IOException {
+        if(args.length == 0){
+            System.out.println("Missing port number! Try any number between 1024 to 49151");
+            return;
+        }
+
+        int port = Integer.parseInt(args[0]);
+
+        Server.start(port, new Handler());
+    }
+}
+
+``````
 <img width="442" alt="截屏2023-01-30 16 43 08" src="https://user-images.githubusercontent.com/52812466/215629381-7f34f0bd-d6aa-4441-837a-98e5bbc75d7f.png">
 
 <img width="559" alt="截屏2023-01-30 16 42 56" src="https://user-images.githubusercontent.com/52812466/215629404-0ea0020b-cfd9-4ad6-a809-a6cf60da1533.png">
