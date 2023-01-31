@@ -32,7 +32,7 @@ I would choose the bug of ListExamples.java
 		answer.add("3");
 
 	}
-    @Test
+    	@Test
 	public void findBugTester() {
 		assertEquals(answer, ListExamples.merge(input2, input1));
 	}
