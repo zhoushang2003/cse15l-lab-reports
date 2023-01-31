@@ -48,6 +48,7 @@ I would choose the bug of ListExamples.java
 ``````
 
 ##### Screenshot of the output of Junit
+<img width="1440" alt="截屏2023-01-12 16 11 45" src="https://user-images.githubusercontent.com/52812466/215632992-8c711485-11a3-4678-91dd-315faea176f5.png">
 
 ### Before- and After- code
 
@@ -79,7 +80,7 @@ static List<String> merge(List<String> list1, List<String> list2) {
 ``````
 How to fix the issue: 
 #### After code
-``````
+``````java
 static List<String> merge(List<String> list1, List<String> list2) {
     List<String> result = new ArrayList<>();
     int index1 = 0, index2 = 0;
