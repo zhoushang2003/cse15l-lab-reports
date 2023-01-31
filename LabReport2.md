@@ -51,12 +51,12 @@ class StringServer {
 }
 
 ``````
-<img width="442" alt="截屏2023-01-30 16 43 08" src="https://user-images.githubusercontent.com/52812466/215629381-7f34f0bd-d6aa-4441-837a-98e5bbc75d7f.png">
+<img width="472" alt="截屏2023-01-30 16 42 02" src="https://user-images.githubusercontent.com/52812466/215629411-96e89f83-ab7d-43f3-9f12-b8b678816115.png">
+In this picture, I called handleRequest and the main function. The code for the url.getPath().contains(“/add”) section is called. “Hello“ added Parameters, result. Also, the port changes.
 
 <img width="559" alt="截屏2023-01-30 16 42 56" src="https://user-images.githubusercontent.com/52812466/215629404-0ea0020b-cfd9-4ad6-a809-a6cf60da1533.png">
 <http://localhost:8000/add?s=How%20old%20are%20you>
-<img width="472" alt="截屏2023-01-30 16 42 02" src="https://user-images.githubusercontent.com/52812466/215629411-96e89f83-ab7d-43f3-9f12-b8b678816115.png">
-
+In this picture, I called handleRequest and the main function. The code for the url.getPath().contains(“/add”) section is called. “How old are you“ added Parameters, result. Also, the port changes.
 
 ## Part2
 I would choose the bug of ListExamples.java
