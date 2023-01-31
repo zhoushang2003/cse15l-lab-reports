@@ -1,21 +1,21 @@
 # cse15l-lab-reports
-##Part1
+## Part1
 
-##Part2
+## Part2
 I would choose the bug of ListExamples.java
 
-###Failure-inducing input
+### Failure-inducing input
 
-###No-Failure input
+### No-Failure input
 
 
-#####Screenshot of the output of Junit
+##### Screenshot of the output of Junit
 
-###Before- and After- code
+### Before- and After- code
 
-####Before code
+#### Before code
 
-####After code
+#### After code
 
-##Part3
+## Part3
 
