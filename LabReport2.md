@@ -7,9 +7,6 @@
 <img width="472" alt="截屏2023-01-30 16 42 02" src="https://user-images.githubusercontent.com/52812466/215629411-96e89f83-ab7d-43f3-9f12-b8b678816115.png">
 
 
-<http://localhost:8000/add?s=How%20old%20are%20you>
-
-
 ## Part2
 I would choose the bug of ListExamples.java
 
@@ -48,7 +45,8 @@ I would choose the bug of ListExamples.java
 ``````
 
 ##### Screenshot of the output of Junit
-<img width="1440" alt="截屏2023-01-12 16 11 45" src="https://user-images.githubusercontent.com/52812466/215632992-8c711485-11a3-4678-91dd-315faea176f5.png">
+<http://localhost:8000/add?s=How%20old%20are%20you>
+<img width="1342" alt="截屏2023-01-30 17 07 46" src="https://user-images.githubusercontent.com/52812466/215633124-017c2b32-a14c-4668-ba6c-f52c79478006.png">
 
 ### Before- and After- code
 
