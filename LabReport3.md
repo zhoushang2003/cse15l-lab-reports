@@ -1,7 +1,7 @@
 I chose grep command, where grep is a command that we can use to find certain string we are looking for in a text file.
 here are 4 options I chose:
 
--v option:
+# -v option:
 1.
 `[cs15lwi23awx@ieng6-203]:skill-demo1-data:36$ find written_2/ > find.txt
 [cs15lwi23awx@ieng6-203]:skill-demo1-data:37$ grep ".txt" find.txt > grep.txt
@@ -25,7 +25,7 @@ This is also a similar example except that we want to exclude the string "Bahama
 
 https://www.youtube.com/watch?v=Tc_jntovCM0
 
--n option:
+# -n option:
 3.
 `[cs15lwi23awx@ieng6-203]:skill-demo1-data:47$ grep -n Bahamas Bhms.txt
 1:written_2/travel_guides/berlitz2/Bahamas-History.txt
@@ -68,7 +68,7 @@ As we can see in this example, there are many lines in what we want to search. I
 
 https://www.youtube.com/watch?v=Tc_jntovCM0
 
--c option:
+# -c option:
 5.
 `[cs15lwi23awx@ieng6-203]:skill-demo1-data:51$ grep -c "txt" grep.txt           
 223
@@ -84,7 +84,7 @@ Here as we did in the last example, if we were to find out how many files are co
 
 https://www.youtube.com/watch?v=Tc_jntovCM0
 
--i option:
+# -i option:
 7.
 `[cs15lwi23awx@ieng6-203]:skill-demo1-data:57$ grep -i "A" A.txt
 written_2/non-fiction/OUP/Abernathy
