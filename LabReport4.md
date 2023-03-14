@@ -1,5 +1,5 @@
 # Step 1. Log into ieng6
-To log in. Typing the command `ssh cs15lwi23awx@ieng6.ucsd.edu`.
+To log in. Typing the command `ssh cs15lwi23awx@ieng6.ucsd.edu`.(replace command with course specified name!)	
 ![image](1.1.png)
 
 # Step 2. Clone your fork of the repository from your Github account
@@ -18,6 +18,7 @@ Using vim to fix the bug. Type `vim ListExamples.java`, press `<down>` arrow unt
 
 # Step 5. Run the tests, demonstrating that they now succeed
 Copy and paste the commands again to run the tests and we now see they succeed.
+Or instead we can use <up arrow> to traverse back to the history since we have already typed the command.
 ![image](5.1.png)
 
 # Step 6. Commit and push the resulting change to your Github account 
