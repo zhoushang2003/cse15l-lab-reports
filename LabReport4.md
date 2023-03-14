@@ -20,7 +20,7 @@ Using vim to fix the bug. Type `vim ListExamples.java`, press `<down>` arrow unt
 Copy and paste the commands again to run the tests and we now see they succeed.
 Or instead we can use <up arrow> to traverse back to the history since we have already typed the command.
 
-![image](5.1.png)
+![image](5.png)
 
 # Step 6. Commit and push the resulting change to your Github account 
 Typing `git init`, then type `git add ListExamples.java` and then press `git commit -m "Changed ListExamples"`. Then type `git push` to finally push the change.
